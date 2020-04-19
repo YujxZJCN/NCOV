@@ -11,5 +11,3 @@ Then clone the project using `git clone https://github.com/YujxZJCN/NCOV.git`.
 `cd` to the directory and run `pod install`.
 
 Finally you can open NCOV.xcworkspace and run it on your phone.
-
----
