@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0690275D4547B190096A45C /* Pods_NCOV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003513C91712A313468F307 /* Pods_NCOV.framework */; };
+		F64229222447FD3300BB20F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64229212447FD3300BB20F5 /* DetailViewController.swift */; };
+		F642292424480EE700BB20F5 /* SOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F642292324480EE700BB20F5 /* SOSViewController.swift */; };
+		F64229262448915400BB20F5 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64229252448915400BB20F5 /* NewsDetailViewController.swift */; };
+		F64229282448976E00BB20F5 /* NewsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64229272448976E00BB20F5 /* NewsDetailTableViewCell.swift */; };
+		F642292A24496A1900BB20F5 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F642292924496A1900BB20F5 /* News.swift */; };
+		F649DCB1244BF187008F411B /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F649DCB0244BF187008F411B /* Stock.swift */; };
+		F649DCB3244BF6C5008F411B /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F649DCB2244BF6C5008F411B /* StockDetailViewController.swift */; };
+		F6694DDA24446323005CE4F1 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6694DD924446323005CE4F1 /* StockViewController.swift */; };
 		F675217924442D040023D2B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675217824442D040023D2B7 /* AppDelegate.swift */; };
 		F675217B24442D040023D2B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675217A24442D040023D2B7 /* SceneDelegate.swift */; };
-		F675217D24442D040023D2B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675217C24442D040023D2B7 /* ViewController.swift */; };
+		F675217D24442D040023D2B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675217C24442D040023D2B7 /* LoginViewController.swift */; };
 		F675218024442D040023D2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F675217E24442D040023D2B7 /* Main.storyboard */; };
 		F675218324442D040023D2B7 /* NCOV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F675218124442D040023D2B7 /* NCOV.xcdatamodeld */; };
 		F675218524442D050023D2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F675218424442D050023D2B7 /* Assets.xcassets */; };
 		F675218824442D050023D2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F675218624442D050023D2B7 /* LaunchScreen.storyboard */; };
+		F6752190244435690023D2B7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675218F244435690023D2B7 /* SignUpViewController.swift */; };
+		F675219224443C0E0023D2B7 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675219124443C0E0023D2B7 /* MainPageViewController.swift */; };
+		F6752194244442980023D2B7 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6752193244442980023D2B7 /* NewsTableViewCell.swift */; };
+		F6752196244453120023D2B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6752195244453120023D2B7 /* MapViewController.swift */; };
+		F68FFC3F24459EB10020EFDB /* StockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68FFC3E24459EB10020EFDB /* StockCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F675217524442D040023D2B7 /* NCOV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCOV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AE212A5FEC57352A633B9D /* Pods-NCOV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCOV.release.xcconfig"; path = "Target Support Files/Pods-NCOV/Pods-NCOV.release.xcconfig"; sourceTree = "<group>"; };
+		3D9EEC8484FD06458C8EE51F /* Pods-NCOV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCOV.debug.xcconfig"; path = "Target Support Files/Pods-NCOV/Pods-NCOV.debug.xcconfig"; sourceTree = "<group>"; };
+		D003513C91712A313468F307 /* Pods_NCOV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCOV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64229212447FD3300BB20F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F642292324480EE700BB20F5 /* SOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSViewController.swift; sourceTree = "<group>"; };
+		F64229252448915400BB20F5 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		F64229272448976E00BB20F5 /* NewsDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F642292924496A1900BB20F5 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		F649DCB0244BF187008F411B /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		F649DCB2244BF6C5008F411B /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
+		F6694DD924446323005CE4F1 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		F675217524442D040023D2B7 /* 同在.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "同在.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F675217824442D040023D2B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F675217A24442D040023D2B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F675217C24442D040023D2B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F675217C24442D040023D2B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F675217F24442D040023D2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F675218224442D040023D2B7 /* NCOV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NCOV.xcdatamodel; sourceTree = "<group>"; };
 		F675218424442D050023D2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F675218724442D050023D2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F675218924442D050023D2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F675218F244435690023D2B7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F675219124443C0E0023D2B7 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		F6752193244442980023D2B7 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		F6752195244453120023D2B7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F68FFC3E24459EB10020EFDB /* StockCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +63,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0690275D4547B190096A45C /* Pods_NCOV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74783CB8D1991E4141144E17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D9EEC8484FD06458C8EE51F /* Pods-NCOV.debug.xcconfig */,
+				23AE212A5FEC57352A633B9D /* Pods-NCOV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0F23270998550F62102173B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D003513C91712A313468F307 /* Pods_NCOV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F675216C24442D040023D2B7 = {
 			isa = PBXGroup;
 			children = (
 				F675217724442D040023D2B7 /* NCOV */,
 				F675217624442D040023D2B7 /* Products */,
+				74783CB8D1991E4141144E17 /* Pods */,
+				C0F23270998550F62102173B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F675217624442D040023D2B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F675217524442D040023D2B7 /* NCOV.app */,
+				F675217524442D040023D2B7 /* 同在.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +110,22 @@
 			children = (
 				F675217824442D040023D2B7 /* AppDelegate.swift */,
 				F675217A24442D040023D2B7 /* SceneDelegate.swift */,
-				F675217C24442D040023D2B7 /* ViewController.swift */,
+				F675217C24442D040023D2B7 /* LoginViewController.swift */,
+				F675219124443C0E0023D2B7 /* MainPageViewController.swift */,
+				F64229212447FD3300BB20F5 /* DetailViewController.swift */,
+				F642292324480EE700BB20F5 /* SOSViewController.swift */,
+				F6752193244442980023D2B7 /* NewsTableViewCell.swift */,
+				F675218F244435690023D2B7 /* SignUpViewController.swift */,
+				F6752195244453120023D2B7 /* MapViewController.swift */,
+				F6694DD924446323005CE4F1 /* StockViewController.swift */,
+				F68FFC3E24459EB10020EFDB /* StockCollectionViewCell.swift */,
+				F642292924496A1900BB20F5 /* News.swift */,
+				F649DCB0244BF187008F411B /* Stock.swift */,
 				F675217E24442D040023D2B7 /* Main.storyboard */,
+				F649DCB2244BF6C5008F411B /* StockDetailViewController.swift */,
+				F64229252448915400BB20F5 /* NewsDetailViewController.swift */,
 				F675218424442D050023D2B7 /* Assets.xcassets */,
+				F64229272448976E00BB20F5 /* NewsDetailTableViewCell.swift */,
 				F675218624442D050023D2B7 /* LaunchScreen.storyboard */,
 				F675218924442D050023D2B7 /* Info.plist */,
 				F675218124442D040023D2B7 /* NCOV.xcdatamodeld */,
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F675218C24442D050023D2B7 /* Build configuration list for PBXNativeTarget "NCOV" */;
 			buildPhases = (
+				B737A7DCD8E4843186015CA8 /* [CP] Check Pods Manifest.lock */,
 				F675217124442D040023D2B7 /* Sources */,
 				F675217224442D040023D2B7 /* Frameworks */,
 				F675217324442D040023D2B7 /* Resources */,
+				747B2955020F305BCCDABFA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +152,7 @@
 			);
 			name = NCOV;
 			productName = NCOV;
-			productReference = F675217524442D040023D2B7 /* NCOV.app */;
+			productReference = F675217524442D040023D2B7 /* 同在.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,15 +201,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		747B2955020F305BCCDABFA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NCOV/Pods-NCOV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NCOV/Pods-NCOV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NCOV/Pods-NCOV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B737A7DCD8E4843186015CA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCOV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F675217124442D040023D2B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F675217D24442D040023D2B7 /* ViewController.swift in Sources */,
+				F64229222447FD3300BB20F5 /* DetailViewController.swift in Sources */,
+				F675217D24442D040023D2B7 /* LoginViewController.swift in Sources */,
+				F6694DDA24446323005CE4F1 /* StockViewController.swift in Sources */,
+				F642292A24496A1900BB20F5 /* News.swift in Sources */,
+				F6752194244442980023D2B7 /* NewsTableViewCell.swift in Sources */,
+				F649DCB1244BF187008F411B /* Stock.swift in Sources */,
 				F675217924442D040023D2B7 /* AppDelegate.swift in Sources */,
 				F675217B24442D040023D2B7 /* SceneDelegate.swift in Sources */,
+				F64229262448915400BB20F5 /* NewsDetailViewController.swift in Sources */,
+				F642292424480EE700BB20F5 /* SOSViewController.swift in Sources */,
+				F68FFC3F24459EB10020EFDB /* StockCollectionViewCell.swift in Sources */,
 				F675218324442D040023D2B7 /* NCOV.xcdatamodeld in Sources */,
+				F675219224443C0E0023D2B7 /* MainPageViewController.swift in Sources */,
+				F64229282448976E00BB20F5 /* NewsDetailTableViewCell.swift in Sources */,
+				F649DCB3244BF6C5008F411B /* StockDetailViewController.swift in Sources */,
+				F6752190244435690023D2B7 /* SignUpViewController.swift in Sources */,
+				F6752196244453120023D2B7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +406,7 @@
 		};
 		F675218D24442D050023D2B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9EEC8484FD06458C8EE51F /* Pods-NCOV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,8 +416,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yjx.NCOV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjx.BeTogether;
+				PRODUCT_NAME = "同在";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +425,7 @@
 		};
 		F675218E24442D050023D2B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AE212A5FEC57352A633B9D /* Pods-NCOV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,8 +435,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yjx.NCOV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjx.BeTogether;
+				PRODUCT_NAME = "同在";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
